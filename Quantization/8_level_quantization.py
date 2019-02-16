@@ -27,7 +27,7 @@ for i in range(img.shape[0]):
 			v = maxv * 0.875
 		img[i][j] = np.uint(v)
 
-cv2.imwrite("q8.png", img)
-cv2.imshow('q8', img)
+cv2.imwrite("quantization_8.png", img)
+cv2.imshow('quantization_8', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
