@@ -20,7 +20,7 @@ for i in range(img.shape[0]):
 		else:
 			toSave[i][j]=0*255
 	
-cv2.imwrite("binImage.jpg", toSave)
+cv2.imwrite("binImage.png", toSave)
 cv2.imshow('binImage', toSave)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
